@@ -98,7 +98,7 @@ var reviews = [
   },
   {
     "id": 1,
-    "productId": 0,
+    "productId": 1,
     "timestamp": "2014-05-20T02:53:00+00:00",
     "user": "User 2",
     "rating": 3,
@@ -106,7 +106,7 @@ var reviews = [
   },
   {
     "id": 2,
-    "productId": 0,
+    "productId": 2,
     "timestamp": "2014-05-20T05:26:00+00:00",
     "user": "User 3",
     "rating": 4,
@@ -114,7 +114,7 @@ var reviews = [
   },
   {
     "id": 3,
-    "productId": 0,
+    "productId": 3,
     "timestamp": "2014-05-20T07:20:00+00:00",
     "user": "User 4",
     "rating": 4,
@@ -122,7 +122,7 @@ var reviews = [
   },
   {
     "id": 4,
-    "productId": 0,
+    "productId": 4,
     "timestamp": "2014-05-20T11:35:00+00:00",
     "user": "User 5",
     "rating": 5,
@@ -130,7 +130,7 @@ var reviews = [
   },
   {
     "id": 5,
-    "productId": 0,
+    "productId": 5,
     "timestamp": "2014-05-20T11:42:00+00:00",
     "user": "User 6",
     "rating": 5,
