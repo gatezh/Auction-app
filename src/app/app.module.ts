@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MaterialModule } from './material/material.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -31,6 +34,8 @@ import { StarsComponent } from './stars/stars.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    BrowserAnimationsModule,
+    MaterialModule,
     RouterModule.forRoot([
       {path: "", component: HomeComponent},
       {path: "products/:productId", component: ProductDetailComponent}
