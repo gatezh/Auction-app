@@ -1,7 +1,7 @@
 <p>
-  <span *ngFor="let star of stars"
-        class="starrating glyphicon glyphicon-star"
-        [class.glyphicon-star-empty]="star">
-  </span>
+  <span *ngFor="let isEmpty of stars"
+      class="material-icons">
+        {{ isEmpty ? 'star_border' : 'star_rate'}}
+    </span>
   <span>{{ rating }} stars</span>
 </p>
